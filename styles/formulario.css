@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+/* === Inicio header === */
 .logo-titulo {
     display: flex;
     justify-content: center;
@@ -17,3 +18,28 @@
     width: 40px;
     object-fit: contain;
 }
+/* === Fin header === */
+
+
+/* === Inicio main === */
+#formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.campo-error {
+    border: 2px solid #a3242f;
+    background: #fbe9ea;
+}
+
+#mensaje-confimacion {
+    font-weight: bold;
+    color: #2b6cb0;
+}
+/* === Fin main === */
+
+/* === Inicio footer === */
+/* === Fin footer === */
