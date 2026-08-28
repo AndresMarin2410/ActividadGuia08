@@ -30,12 +30,16 @@
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+#formulario label {
+    font-weight: 700;
+}
 .campo-error {
     border: 2px solid #a3242f;
     background: #fbe9ea;
 }
 
-#mensaje-confimacion {
+#mensaje-confirmacion {
     font-weight: bold;
     color: #2b6cb0;
 }
