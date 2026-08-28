@@ -32,7 +32,7 @@ formulario.addEventListener('submit', function(e) {
         correo.classList.remove('campo-error')
     }
 
-    if(telefono.value.trim() === '' || telefono.value.length < 9) {
+    if(telefono.value.trim() === '' || telefono.value.length < 8) {
         telefono.classList.add('campo-error')
         formularioValido = false;
         if(!mensajeError) {
@@ -65,6 +65,7 @@ formulario.addEventListener('submit', function(e) {
 
     if(formularioValido) {
         mensajeConfirmacion.textContent = 'Formulacion enviado con exito'
+        formulario.reset();
     } else {
         mensajeConfirmacion.textContent = mensajeError;
     }
