@@ -4,11 +4,17 @@
     padding: 0;
 }
 body {
-    background-color: #faf8f5;
-    color: #333;
+    line-height: 1.5;
 }
 
 /* === Inicio header === */
+header {
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .logo-titulo {
     display: flex;
     justify-content: center;
@@ -36,6 +42,7 @@ body {
     font-size: 1rem;
     padding: 6px 12px;
     border-radius: 4px;
+    border: 1px solid;
 }
 
 .navbar a:hover {
@@ -46,13 +53,23 @@ body {
 
 
 /* === Inicio main === */
+main {
+    padding: 30px 15px;
+}
 #formulario {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    max-width: 400px;
-    margin: auto;
+    gap: 12px;
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 24px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+#formulario input::placeholder {
+    padding: 3px;
 }
 
 #formulario label {
