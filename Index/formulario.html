@@ -28,12 +28,20 @@
             <label for="telefono">Telefono:</label>
             <input type="text" id="telefono" placeholder="912345678">
 
+            <label for="tipo-planta">Tipo de consulta</label>
+            <select  id="tipo-consulta" required>
+                <option value="">Tipo consulta</option>
+                <option>Consulta general</option>
+                <option>Pedido especial</option>
+                <option>Reclamo</option>
+                <option>Otro</option>
+            </select>
 
+            <label for="Mensaje">Mensaje:</label>
+            <textarea  id="mensaje" rows="2" required></textarea>
 
-
-
-
-
+            <button type="submit">Enviar consulta</button>
+            <p id="mensaje-confimacion"></p>
         </form>
     </main>
 
