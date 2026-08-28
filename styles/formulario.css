@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-titulo {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.logo-formulario {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+}
