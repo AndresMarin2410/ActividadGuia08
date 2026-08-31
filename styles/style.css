@@ -74,8 +74,7 @@ h2 {
     padding-top: 15px;
 }
 
-.tabla-producto th,
-.tabla-producto td {
+.tabla-producto th, .tabla-producto td {
     text-align: center;
     padding: 6px 10px;
 }
@@ -87,9 +86,8 @@ h2 {
 .precio-pan {
     margin-top: auto;             
     font-weight: bold;
-    font-size: 1.15rem;
+    font-size: larger;
     color: #222;
-    padding-top: 20px;
 }
 .producto {
     display: flex;
